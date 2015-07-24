@@ -32,7 +32,7 @@ Description: This script does the client's hosts file concatenation
 
 Filepath: /opt/matlab_scratch
 
-Distributed: is kept in /root/ on the client
+Distributed: is kept in /root/ on the client and is run on boot by root's crontab
 
 start_all.sh
 ------------
