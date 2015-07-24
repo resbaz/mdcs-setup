@@ -4,7 +4,8 @@ README
 
 Lachlan Musicman 20150724
 
-This is a description of what each file is in the file system
+The MDCS has a couple of little quirks which I've worked around with scripts. 
+This is a description of what each file is for, where it is and how it is distributed.
 
 hosts
 -----
