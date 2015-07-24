@@ -1,0 +1,38 @@
+------
+README
+------
+
+Lachlan Musicman 20150724
+
+This is a description of what each file is in the file system
+
+
+hosts
+-----
+
+Description: This is the main host file for the MDCS. 
+
+Filepath: /opt/matlab_scratch
+
+Distributed: to /etc/hosts at head and worker boot by root's crontab 
+
+hosts_for_clients
+-----------------
+
+Description: This is strictly just the list of ip addresses and hostnames for each MDCS client. 
+
+Filepath: /opt/matlab_scratch
+
+Distributed: via root's crontab, it's concatenated onto /etc/hosts on the client.
+
+hostbuilder.sh
+--------------
+
+Description: This script does the client's hosts file concatenation 
+
+Filepath: /opt/matlab_scratch
+
+Distributed: is kept in /root/ 
+
+
+
