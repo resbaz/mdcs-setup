@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>                                                                                                                                     
+<settings name="parallel" xmlns="urn:mathworks.matlab.settings" xsi:schemaLocation="urn:mathworks.matlab.settings settings.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <settings name="profiles">
+        <settings name="MJSProfile1" visible="true">
+            <key name="Description" visible="true" anytype="true">
+            </key>
+            <key name="ProjectComponent" visible="true" anytype="true">
+                <string>
+                    <value><![CDATA[MJSProfile1ProjectComponent]]></value>
+                </string>
+            </key>
+            <key name="SchedulerComponent" visible="true">
+                <string>
+                    <value><![CDATA[MJSProfile1SchedulerComponent]]></value>
+                </string>
+            </key>
+        </settings>
+    </settings>
+    <settings name="projectcomponents">
+        <settings name="MJSProfile1ProjectComponent" visible="true">
+            <key name="AdditionalPaths" visible="true">
+                <string minArraySize="0" maxArraySize="0">
+                    <value><![CDATA[/opt/matlab_scratch/]]></value>
+                </string>
+            </key>
+            <key name="AttachedFiles" visible="true">
+                <string minArraySize="0" maxArraySize="0" undef="true">
+                </string>
+            </key>
+            <key name="AutoAttachFiles" visible="true" anytype="true">
+            </key>
+            <key name="CaptureDiary" visible="true">
+                <bool>
+                    <value>1</value>
+                </bool>
+            </key>
+            <key name="JobFinishedFcn" visible="true" anytype="true">
+            </key>
+            <key name="JobQueuedFcn" visible="true" anytype="true">
+            </key>
+            <key name="JobRunningFcn" visible="true" anytype="true">
+            </key>
+            <key name="JobTimeout" visible="true" anytype="true">
+            </key>
+            <key name="NumWorkersRange" visible="true" anytype="true">
+            </key>
+            <key name="TaskFinishedFcn" visible="true" anytype="true">
+            </key>
+            <key name="TaskRunningFcn" visible="true" anytype="true">
+            </key>
+            <key name="TaskTimeout" visible="true" anytype="true">
+            </key>
+        </settings>
+    </settings>
+    <settings name="schedulercomponents">
+        <settings name="MJS" visible="true">
+            <settings name="MJSProfile1SchedulerComponent" visible="true">
+                <key name="Certificate" visible="true" anytype="true">
+                </key>
+                <key name="DefaultTimeout" visible="true" anytype="true">
+                </key>
+                <key name="Host" visible="true">
+                    <string>
+                        <value><![CDATA[mdcs-256-head]]></value>
+                    </string>
+                </key>
+                <key name="LicenseNumber" visible="true" anytype="true">
+                </key>
+                <key name="MJSName" visible="true" anytype="true">
+                </key>
+                <key name="MaximumRetries" visible="true" anytype="true">
+                </key>
+                <key name="RestartWorker" visible="true" anytype="true">
+                </key>
+                <key name="Username" visible="true" anytype="true">
+                </key>
+            </settings>
+        </settings>
+    </settings>
+</settings> 
